@@ -1,6 +1,6 @@
 import sentencepiece as spm
 
-def train_sentencepiece_model(conversations, model_prefix='./configs/spm_dktc', vocab_size=1200):
+def train_sentencepiece_model(conversations, model_prefix='./configs/spm_dktc', vocab_size=1500):
     """
     주어진 conversations를 통해 SentencePiece 모델 학습
     

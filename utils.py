@@ -12,7 +12,7 @@ from preprocessing import load_and_preprocess_data
 from tokenization import train_sentencepiece_model, SentencePieceVocab
 
 
-def hist_conversations_length(train_path, test_path, vocab_size=1200):
+def hist_conversations_length(train_path, test_path, vocab_size=1500):
     """
     학습 데이터와 테스트 데이터의 토큰화 후 conversations의 length 분포를
     시각화하고, 시각화 이미지를 Images 디렉토리에 저장
