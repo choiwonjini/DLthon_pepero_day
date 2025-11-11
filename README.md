@@ -9,21 +9,19 @@ This is a repository for Aiffel DLthon
 DLthon_pepero_day/
 ├── configs/
 ├── Data/
-│   └── aiffel-dl-thon-dktc-online-15.zip
+│   └── aiffel-dl-thon-dktc-online-15
+│       └── ~.csv
 ├── Images/
 ├── models/
-│   ├── model1.py
-│   ├── model2.py
-│   ├── model3.py
-│   └── model4.py
+│   ├── 1D_CNN.ipynb
+│   ├── bi_GRU.ipynb
+│   ├── boemikbert_base.ipynb
+│   └── decoder_only.ipynb
 ├── dataset.py
-├── evaluate.py
-├── model.py
 ├── preprocessing.py
 ├── README.md
-├── requirements.txt
 ├── tokenization.py
-├── train.py
+├── eda.py
 └── utils.py
 ```
 ---
@@ -34,10 +32,7 @@ DLthon_pepero_day/
     - modles : 다양한 모델 아키텍처 실험 및 관리를 위한 디렉토리
 - files
     - dataset.py : 데이터셋을 불러오고, 모델 입력으로 사용할 수 있는 형태로 변환
-    - evaluate.py : 학습된 모델의 성능 평가
-    - model.py : 메인 모델 정의
     - preprocessing.py : 원본 데이터에 대한 전처리
-    - requirements.txt : 프로젝트 실행에 필요한 파이썬 라이브러리 목록과 버전 명시
     - tokenization.py : 텍스트 데이터에 대한 토큰화 진행
-    - train.py : 모델 학습 과정을 총괄하는 메인 스크립트
+    - eda.py : 데이터셋의 분포 확인
     - utils.py : 여러 파일에서 공통적으로 사용되는 유용한 함수를 모아놓은 모듈
